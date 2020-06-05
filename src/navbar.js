@@ -1,3 +1,5 @@
+import Logo from './img/pizza-plaza.png';
+
 export default function navbar() {
     //defining elements
   
@@ -12,7 +14,7 @@ export default function navbar() {
   
     
   
-    ulE.innerHTML = "<li>Logo</li><li>About Us</li><li>Our Menu</li><li>Find Us!</li>"
+    ulE.innerHTML = `<li><img src="${Logo}" alt="logos"></li><li>About Us</li><li>Our Menu</li><li>Find Us!</li>`
     navBar.appendChild(ulE);
     return navBar;
   }
