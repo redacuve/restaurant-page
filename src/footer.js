@@ -1,11 +1,11 @@
-import '@fortawesome/fontawesome-free/js/fontawesome'
-import '@fortawesome/fontawesome-free/js/solid'
-import '@fortawesome/fontawesome-free/js/brands'
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/brands';
 
-export default function footer(){
-    const footer = document.createElement('footer');
-    footer.classList.add('flex', 'text-center', 'mb-4', 'flex-wrap', 'border-solid', 'border-t-4');
-    footer.innerHTML = `
+export default function footer() {
+  const footer = document.createElement('footer');
+  footer.classList.add('flex', 'text-center', 'mb-4', 'flex-wrap', 'border-solid', 'border-t-4');
+  footer.innerHTML = `
         <div class="w-full">
             <p class="text-2xl">Pizza Plaza</p>
         </div>
@@ -21,5 +21,5 @@ export default function footer(){
             <p>&copy; Pizza Plaza  by <em>Redacuve | 2020</em></p>
         </div>
     `;
-    return footer;
+  return footer;
 }

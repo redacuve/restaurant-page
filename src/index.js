@@ -4,7 +4,9 @@ import navbar from './navbar';
 import container from './container';
 import footer from './footer';
 
-import {clickHome, clickFind, clickMenu, clickAbout} from './functions';
+import {
+  clickHome, clickFind, clickMenu, clickAbout,
+} from './functions';
 
 document.getElementById('content').appendChild(navbar());
 document.getElementById('content').appendChild(container());
