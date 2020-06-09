@@ -13,7 +13,7 @@ module.exports = {
         use: ["style-loader", "postcss-loader"],
       },
       {
-        test: /\.(png|svg|jp?g|gif)$/,
+        test: /\.(png|svg|jpe?g|gif)$/,
         use: ["file-loader"],
       },
     ],

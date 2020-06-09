@@ -10,7 +10,7 @@ import {
 
 document.getElementById('content').appendChild(navbar());
 document.getElementById('content').appendChild(container());
-document.getElementById('content').appendChild(footer());
+document.body.appendChild(footer());
 clickHome();
 
 document.getElementById('about').addEventListener('click', clickAbout);
