@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
+    "autoprefixer": "^9.8.0",
     "tailwindcss": "^1.4.6"
   }
 }
