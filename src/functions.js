@@ -26,7 +26,3 @@ export function clickHome() {
   content.innerHTML = '';
   content.appendChild(homePage());
 }
-
-export default {
-  clickHome, clickFind, clickAbout, clickMenu,
-};
